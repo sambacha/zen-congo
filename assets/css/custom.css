@@ -1,0 +1,17 @@
+/* Manrope default font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&display=swap');
+
+html {
+  font-family: 'Manrope', sans-serif;
+--pagefind-ui-scale: 1;
+--pagefind-ui-primary: #034ad8;
+--pagefind-ui-text: #393939;
+--pagefind-ui-background: #ffffff;
+--pagefind-ui-border: #eeeeee;
+--pagefind-ui-tag: #eeeeee;
+--pagefind-ui-border-width: 2px;
+--pagefind-ui-border-radius: 8px;
+--pagefind-ui-image-border-radius: 8px;
+--pagefind-ui-image-box-ratio: 3 / 2;
+--pagefind-ui-font: sans-serif;
+}
