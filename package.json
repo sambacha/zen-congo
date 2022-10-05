@@ -1,0 +1,16 @@
+{
+  "name": "zen-congo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.10.3",
+    "pagefind": "^0.8.1"
+  }
+}
