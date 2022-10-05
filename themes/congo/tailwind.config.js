@@ -1,3 +1,7 @@
+// @ts-check
+/** 
+ * @type {import('tailwindcss').Config}
+ */
 module.exports = {
   content: [
     "./layouts/**/*.html",
@@ -7,6 +11,13 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '853px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     colors: {
       transparent: "transparent",
       neutral: {
@@ -84,7 +95,7 @@ module.exports = {
             "--tw-prose-invert-th-borders": theme("colors.neutral.500 / 1"),
             "--tw-prose-invert-td-borders": theme("colors.neutral.700 / 1"),
             a: {
-              textDecoration: "underline",
+              textDecoration: "none",
               textDecorationColor: theme("colors.primary.300 / 1"),
               fontWeight: "500",
               "&:hover": {
@@ -129,5 +140,8 @@ module.exports = {
       }),
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require('@tailwindcss/forms')
+  ],
 };
