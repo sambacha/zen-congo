@@ -15,3 +15,9 @@ html {
 --pagefind-ui-image-box-ratio: 3 / 2;
 --pagefind-ui-font: sans-serif;
 }
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
